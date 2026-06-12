@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --color-primary: #7150d3;
+  --color-primary-hover: #5f3fbf;
+  --color-pbg: #f0ecfc;
+  --color-pbg2: #f8f6fe;
+  --color-gt: #4b4b4b;
+  --color-gs: #6b6b6b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: var(--font-sans);
+  color: #111;
+}
+
+/* ── Bubble animations ──────────────────────────── */
+@keyframes bubbleRise {
+  0%   { transform: translateY(0) scale(1);     opacity: 0; }
+  12%  { opacity: 0.9; }
+  80%  { opacity: 0.65; }
+  100% { transform: translateY(-90px) scale(1.1); opacity: 0; }
+}
+@keyframes bubbleRiseSm {
+  0%   { transform: translateY(0) scale(1);     opacity: 0; }
+  15%  { opacity: 0.85; }
+  80%  { opacity: 0.6; }
+  100% { transform: translateY(-55px) scale(1.05); opacity: 0; }
+}
+
+.bubble-item {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, rgba(255,255,255,0.55), rgba(200,180,255,0.15));
+  border: 1.5px solid rgba(255,255,255,0.45);
+  pointer-events: none;
+  animation: var(--b-anim, bubbleRise) var(--b-dur, 3.8s) ease-in-out infinite var(--b-delay, 0s);
+  animation-play-state: paused;
+}
+
+[data-bubbles="on"] .bubble-item {
+  animation-play-state: running;
+}

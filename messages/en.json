@@ -1,0 +1,60 @@
+{
+  "nav": {
+    "about": "About",
+    "how": "How it works",
+    "partners": "For partners",
+    "contacts": "Contacts"
+  },
+  "hero": {
+    "headline": "digital platform for household services with delivery",
+    "description": "Professional specialists, easy ordering and fast delivery.\nYour comfort — just one click away.",
+    "cta_order": "Order a service",
+    "cta_partner": "Become a partner"
+  },
+  "features": {
+    "item1_title": "Wide range of services",
+    "item1_desc": "Cleaning, dry cleaning, repairs, garment care and much more",
+    "item2_title": "Verified specialists",
+    "item2_desc": "Experienced professionals with proven track records",
+    "item3_title": "Delivery & convenience",
+    "item3_desc": "We pick up, complete and return — without leaving home",
+    "item4_title": "Secure payments",
+    "item4_desc": "In-app payments with data protection"
+  },
+  "how": {
+    "title": "How does it work?",
+    "step1_title": "Choose a service",
+    "step1_desc": "Find the service you need in our catalog",
+    "step2_title": "Enter your address",
+    "step2_desc": "We will come to you and pick up your items",
+    "step3_title": "Specialist picks up the order",
+    "step3_desc": "Our partner will complete the work with quality",
+    "step4_title": "Receive the result with delivery",
+    "step4_desc": "We bring everything back at a time convenient for you"
+  },
+  "cityStats": {
+    "city_title": "We're in your city",
+    "city_desc": "Serving clients across cities in Kazakhstan",
+    "trust_title": "Trusted by thousands",
+    "trust_desc": "Thousands of clients have chosen convenience and quality",
+    "stat1_num": "20+",
+    "stat1_label": "Partners",
+    "stat2_num": "5,000+",
+    "stat2_label": "Happy clients",
+    "stat3_num": "10,000+",
+    "stat3_label": "Completed orders",
+    "stat4_num": "4.9",
+    "stat4_label": "Average rating"
+  },
+  "partner": {
+    "title": "Become a Meirim partner",
+    "description": "Grow your business with us,\nJoin the platform\nand get more clients",
+    "cta": "Become a partner"
+  },
+  "footer": {
+    "contact_title": "Contact us",
+    "app_title": "Download the Meirim app",
+    "qr_text": "Scan the QR code with your phone camera to download the app",
+    "copyright": "© 2025 Meirim. All rights reserved."
+  }
+}
